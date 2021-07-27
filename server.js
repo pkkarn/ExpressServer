@@ -1,11 +1,15 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const posts = require('./posts/index');
+
 
 // lOad env file
 
 dotenv.config({ path: './config/config.env' })
 
 const app = express(); // instance of express
+
+app.use('/api/v1/codechit/posts', posts)
 
 const PORT = process.env.PORT || 3000;
 
