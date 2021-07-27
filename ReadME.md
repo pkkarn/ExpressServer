@@ -22,3 +22,7 @@ and res.json() // To send json as response
 As far as i understand, Controller is efficient way to keep your routes clean... and it helps to read and write data from database as forwarded request send by respective route.
 
 ![image](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes/mvc_express.png)
+
+**MiddleWare**:
+
+Middleware functions have access to the req and res within specific cycle.
