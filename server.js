@@ -1,11 +1,11 @@
 const express = require('express');
-const dotenv = require('dotenv');
+// const dotenv = require('dotenv');
 const posts = require('./posts/index');
 
 
 // lOad env file
 
-dotenv.config({ path: './config/config.env' })
+// dotenv.config({ path: './config/config.env' })
 
 const app = express(); // instance of express
 
